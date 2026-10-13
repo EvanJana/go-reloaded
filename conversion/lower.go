@@ -1,10 +1,7 @@
 package conv
 
-func lower(s string) {
-	rune := []rune(s)
-	for _, caractere := range rune {
-		if caractere >= 'A' && caractere <= 'Z' {
-			caractere = caractere + 32
-		}
-	}
+import "strings"
+
+func Lower(s string) string {
+	return strings.ToLower(s)
 }

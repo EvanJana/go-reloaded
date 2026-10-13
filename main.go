@@ -2,8 +2,6 @@ package main
 
 import (
 	"os"
-	"strings"
-	"strconv"
 )
 
 func main() {
@@ -22,9 +20,8 @@ func main() {
 	}
 	os.Stdout.Write(result)
 
-	lignes := strings.Split(string(result), "\n")
+	/*lignes := strings.Split(string(result), "\n")
 	for _, ligne := range lignes {
 		mots := strings.Fields(ligne)
-	}
+	}*/
 }
-
