@@ -1,4 +1,5 @@
-J'ai 
-fa
-ge
-gh
+HelLO (low) tout le monde (cap,2)
+10 (bin)
+15A (hex)
+Non ...
+" Crazyfrog "
